@@ -1,0 +1,14 @@
+name: Purge jsdelivr CDN
+on:
+  push:
+    branches:
+      - hidden
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsdelivr CDN
+        run: |
+          for file in $(ls); do
+            curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@hidden/${file}"
+          done
