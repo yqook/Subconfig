@@ -1,7 +1,0 @@
-payload:
-  - DOMAIN,clash.razord.top
-  - DOMAIN,yacd.haishan.me
-  - DOMAIN,cloud.danyq.com
-  - DOMAIN-SUFFIX,met.no
-  - DOMAIN,location.services.moz
-  - PROCESS-NAME,geoclue
