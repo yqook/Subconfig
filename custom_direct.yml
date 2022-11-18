@@ -4,4 +4,3 @@ payload:
   - DOMAIN,cloud.danyq.com
   - DOMAIN-SUFFIX,met.no
   - DOMAIN,location.services.moz
-  - PROCESS-NAME,geoclue
